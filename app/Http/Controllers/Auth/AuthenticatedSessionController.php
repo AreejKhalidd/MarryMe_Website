@@ -9,6 +9,7 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use JWTAuth;
 
 class AuthenticatedSessionController extends Controller
 {
@@ -44,7 +45,7 @@ class AuthenticatedSessionController extends Controller
             //$request->session()->regenerate();
             //$request->password=Hash::make($request->password);
             $credentials = $request->only('email', 'password');
-            $token = auth()->attempt($credentials,true);
+            $token = Auth::attempt($credentials, true);
             if ($token){
                 return response()->json(['message' => 'logged in successfully','AccessToken:'=>$token], 200);
             }
