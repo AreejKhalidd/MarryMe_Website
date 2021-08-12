@@ -28,7 +28,7 @@ In this website, there are many features like the following
 * [Abdelrhman Ammar](https://github.com/Abdelrhman-ammar)
 * [Amira Fathy Gomaa Sayed](https://github.com/amirafathy-59)
 * [Aya Sameh Mohamed](https://github.com/aya1sameh)
-* [MAHASEN MOHAMED AHMED](https://github.com/Mahasen-24)
+* [Omnia Fares ElSayed](https://github.com/OmniaFares)
 * [Areej Khalid](https://github.com/AreejKhalidd)
 * [Mohamed Saeed](https://github.com/EngMohamedSaeed2001)
 * [Sarah Hisham](https://github.com/sarahhisham2)
